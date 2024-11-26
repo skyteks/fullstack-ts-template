@@ -1,12 +1,11 @@
-node_modules
+*node_modules
+*.env*
 
 .vs
 .vscode
 
 # FRONTEND
-/frontend/node_modules
-/frontend/.env
 
 # BACKEND
-/backend/node_modules
-/backend/.env
+/backend/prisma/migrations/*
+!/backend/prisma/migrations/migration_lock.toml
